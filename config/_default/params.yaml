@@ -80,7 +80,7 @@ features:
   comment:
     provider: ''
     disqus:
-      shortname: ''
+      shortname: 'aidanscannell'
       show_count: true
     commento:
       url: ''
@@ -115,3 +115,8 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+# Icons
+icons:
+  pack:
+    ai: true
