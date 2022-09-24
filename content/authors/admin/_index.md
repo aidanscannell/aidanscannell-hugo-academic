@@ -14,7 +14,7 @@ organizations:
     url: "https://www.aalto.fi/en"
   - name: Aalto Robot Learning Lab
     url: "https://rl.aalto.fi/"
-  - name: Machine Learning Research Group
+  - name: Aalto Machine Learning Group
     url: "https://users.aalto.fi/~asolin/group/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -26,18 +26,18 @@ interests:
   - Probabilistic machine learning
   - Decision-making under uncertainty
   - Approximate Bayesian inference
-  - Bayesian deep learning
+  - Bayesian neural networks
   - Gaussian processes
-  - Optimal control
+#  - Optimal control
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Robotics and Autonomous Systems
-      institution: University of Bristol
+      institution: University of Bristol, UK
       year: 2022
     - course: MEng Mechanical Engineering
-      institution: University of Bristol
+      institution: University of Bristol, UK
       year: 2016
 
 # Social/Academic Networking

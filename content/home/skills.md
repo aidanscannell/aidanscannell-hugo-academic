@@ -1,13 +1,16 @@
 ---
 # An instance of the Featurette widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
+
 widget: featurette
+
+active: false
 
 # This file represents a page section.
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 100
 
 title: Skills
 subtitle:
@@ -16,18 +19,22 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 90%
-    icon: r-project
+  - description: TensorFlow/JAX/GPflow/NumPy/SciPy
+    icon: python
     icon_pack: fab
-    name: R
+    name: Python
   - description: 100%
     icon: chart-line
     icon_pack: fas
     name: Statistics
-  - description: 10%
-    icon: camera-retro
-    icon_pack: fas
-    name: Photography
+  - description: Git/GitHub
+    icon: github
+    icon_pack: fab
+    name: Git
+  - description: 100%
+    icon: docker
+    icon_pack: fab
+    name: Docker
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"

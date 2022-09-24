@@ -6,9 +6,12 @@
 # Appearance
 
 appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
+  # theme_day: minimal
+  # theme_night: minimal
+  theme_night: dark
+  font: mrrobot
+  # font: cyberpunk
+  # font: minimal
   font_size: L
 
 # SEO
