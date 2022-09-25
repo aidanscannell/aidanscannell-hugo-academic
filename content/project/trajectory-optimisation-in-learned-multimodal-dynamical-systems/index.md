@@ -4,7 +4,7 @@
 title: "Trajectory Optimisation in Learned Multimodal Dynamical Systems"
 summary: ""
 authors: [admin]
-tags: ["optimal-control", "gaussian-processes", "variational inference", "probabilistic-modelling", "machine-learning", "python", "JAX", "robotics"]
+tags: ["optimal-control", "gaussian-processes", "variational inference", "probabilistic-modelling", "machine-learning", "python", "JAX", "robotics", "research"]
 categories: []
 date: 2020-11-16T21:29:53Z
 

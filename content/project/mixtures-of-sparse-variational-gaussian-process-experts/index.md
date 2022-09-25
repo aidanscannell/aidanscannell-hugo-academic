@@ -4,7 +4,7 @@
 title: "Identifiable Mixtures of Sparse Variational Gaussian Process Experts"
 summary: "This work introduces a variational lower bound for the Mixture of Gaussian Process Experts model with a GP-based gating network based on sparse GPs. The model (and inference) are implemented in GPflow/TensorFlow."
 authors: [admin]
-tags: ["gaussian-processes", "variational inference", "probabilistic-modelling", "machine-learning", "python", "GPflow", "TensorFlow", "bayesian-inference"]
+tags: ["gaussian-processes", "variational inference", "probabilistic-modelling", "machine-learning", "python", "GPflow", "TensorFlow", "bayesian-inference", "research", "code"]
 categories: []
 date: 2020-11-16T19:31:03Z
 

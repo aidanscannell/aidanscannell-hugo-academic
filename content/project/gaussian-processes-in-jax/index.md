@@ -4,7 +4,7 @@
 title: "GPJax - Gaussian Processes in Jax"
 summary: "Minimal Gaussian process library in JAX with a simple (custom) approach to state management."
 authors: [admin]
-tags: ["JAX", "python", "gaussian-processes", "machine-learning"]
+tags: ["JAX", "python", "gaussian-processes", "machine-learning", "code"]
 categories: []
 date: 2021-05-06T14:35:24+01:00
 
