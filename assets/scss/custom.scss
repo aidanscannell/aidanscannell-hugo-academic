@@ -59,6 +59,7 @@ Fonts
 
 .hero-title {
   margin: 0;
+  // padding-bottom: 50px;
   position: absolute;
   top: 50%;
   -ms-transform: translateY(-50%);
@@ -66,6 +67,7 @@ Fonts
 }
 
 .hero-lead {
+  max-width: 10000px;
   margin: 0;
   position: absolute;
   top: 60%;

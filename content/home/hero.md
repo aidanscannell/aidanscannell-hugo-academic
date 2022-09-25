@@ -37,4 +37,5 @@ hero_media = ""
  [cta_note]
   label = ''
 +++
-Postdoctoral Researcher | Machine Learning | Control Theory | Robotics
+
+Postdoctoral researcher | Probabilistic machine learning | Reinforcement learning | Robotics
