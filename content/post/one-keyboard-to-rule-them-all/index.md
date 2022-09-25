@@ -5,6 +5,7 @@ date = 2021-05-09
 lastmod = 2021-05-09
 tags = ["keyboards", "ergonomics"]
 draft = false
+commentable = true
 +++
 
 After the first lockdown here in the UK, I decided that building a keyboard would make a good lockdown 2.0 project.

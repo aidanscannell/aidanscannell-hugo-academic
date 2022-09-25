@@ -5,6 +5,7 @@ date = 2020-03-29T00:00:00+00:00
 lastmod = 2020-03-29T00:00:00+00:00
 tags = ["spacemacs", "emacs"]
 draft = false
+commentable = true
 +++
 
 This is a short post detailing how I installed Emacs and configured an environment for maintaining multiple configurations (on my MacBook Pro).

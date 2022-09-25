@@ -7,6 +7,7 @@ tags = ["emacs", "org-mode", "cv", "resume", "doom-emacs"]
 draft = false
 url_pdf = "post/org-mode-resume/resume.pdf"
 url_code = "https://github.com/aidanscannell/my-org-resume"
+commentable = true
 +++
 
 Over the last few years I have been trying to find the best tools for managing my CV/resume.

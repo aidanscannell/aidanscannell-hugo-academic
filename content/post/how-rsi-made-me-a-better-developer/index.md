@@ -10,6 +10,9 @@ date = 2020-01-01
 lastmod = 2020-01-01
 draft = false
 
+
+commentable = true
+
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
 authors = ["Aidan Scannell"]
 

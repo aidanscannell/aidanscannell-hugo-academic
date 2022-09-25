@@ -5,6 +5,7 @@ date = 2019-09-16T12:14:00+01:00
 lastmod = 2019-09-16T12:14:00+01:00
 tags = ["emacs"]
 draft = false
+commentable = true
 +++
 
 Hello and welcome to my blog.
