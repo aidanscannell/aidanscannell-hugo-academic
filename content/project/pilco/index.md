@@ -4,7 +4,7 @@
 title: "Model-Based Reinforcement Learning with Gaussian Processes"
 summary: "In this work I re-implemented the PILCO algorithm in python using Tensorflow and GPflow. This work was mainly carried out for personal development and some of the implementation is based on this [Python implementation](https://github.com/nrontsis/PILCO). This repository will mainly serve as a baseline for my future research."
 authors: [admin]
-tags: ["gaussian-processes", "machine-learning", "python", "reinforcement-learning"]
+tags: ["gaussian-processes", "machine-learning", "python", "reinforcement-learning", "code"]
 categories: []
 date: 2019-03-13
 
