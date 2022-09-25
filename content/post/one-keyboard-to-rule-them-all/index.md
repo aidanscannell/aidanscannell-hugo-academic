@@ -2,6 +2,7 @@
 title = "One Keyboard to Rule Them All - I Built a Dactyl Manuform"
 author = ["Aidan Scannell"]
 date = 2021-05-09
+lastmod = 2021-05-09
 tags = ["keyboards", "ergonomics"]
 draft = false
 +++

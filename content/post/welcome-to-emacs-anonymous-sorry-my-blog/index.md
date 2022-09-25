@@ -2,6 +2,7 @@
 title = "Welcome to Emacs Anonymous, Sorry, My Blog"
 author = ["Aidan Scannell"]
 date = 2019-09-16T12:14:00+01:00
+lastmod = 2019-09-16T12:14:00+01:00
 tags = ["emacs"]
 draft = false
 +++

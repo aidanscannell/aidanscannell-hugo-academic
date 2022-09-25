@@ -7,6 +7,7 @@ markup = "blackfriday"
 summary = ""
 
 date = 2020-01-01
+lastmod = 2020-01-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.

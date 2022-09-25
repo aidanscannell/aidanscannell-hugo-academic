@@ -2,6 +2,7 @@
 title = "Creating a CV/Resume in Org-Mode using LaTeX Templates"
 author = ["Aidan Scannell"]
 date = 2020-12-01
+lastmod = 2020-12-01
 tags = ["emacs", "org-mode", "cv", "resume", "doom-emacs"]
 draft = false
 url_pdf = "post/org-mode-resume/resume.pdf"

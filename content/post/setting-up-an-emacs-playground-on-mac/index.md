@@ -2,6 +2,7 @@
 title = "Setting Up an Emacs Playground on MacOS - Emacs Mac Port | Chemacs | Emacsclient | Spacemacs "
 author = ["Aidan Scannell"]
 date = 2020-03-29T00:00:00+00:00
+lastmod = 2020-03-29T00:00:00+00:00
 tags = ["spacemacs", "emacs"]
 draft = false
 +++
