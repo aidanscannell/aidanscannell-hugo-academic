@@ -22,7 +22,7 @@ marketing:
     local_business_type: ''
     org_name: 'Aalto University'
     description: 'Aidan Scannell | Portfolio and Resume'
-    # twitter: 'wowchemy'
+    twitter: 'scannell_aidan'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -78,7 +78,7 @@ features:
     gravatar: false
     shape: circle
   comment:
-    provider: ''
+    provider: 'disqus'
     disqus:
       shortname: 'aidanscannell'
       show_count: true
@@ -97,7 +97,7 @@ features:
       index_name: ''
       show_logo: false
   map:
-    provider: ''
+    provider: 'mapnik'
     api_key: ''
     zoom: 15
 
@@ -120,3 +120,5 @@ security:
 icons:
   pack:
     ai: true
+
+

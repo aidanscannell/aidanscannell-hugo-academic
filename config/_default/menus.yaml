@@ -23,7 +23,7 @@ main:
     url: '#talks'
     weight: 40
   - name: CV
-    url: "/curriculum-vitae.pdf"
+    url: uploads/curriculum-vitae.pdf
     weight: 60
   - name: Contact
     url: '#contact'

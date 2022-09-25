@@ -27,30 +27,34 @@ content:
   # Contact details (edit or remove options as required)
   email: scannell.aidan@gmail.com
   phone: +44 7875583912
-  address:
-    street: Room 3578, Maarintie 8, Espoo
-    city: Helsinki
-    region: CA
-    postcode: '02150'
-    country: Finland
-    country_code: fi
-  coordinates:
-    latitude: '360.1874267019191'
-    longitude: '24.82024951126642'
-  directions: 
-  office_hours:
-    # - 'Monday 10:00 to 13:00'
-    # - 'Wednesday 09:00 to 10:00'
-  # appointment_url: 'https://calendly.com'
-  # contact_links:
-  #   - icon: twitter
-  #     icon_pack: fab
-  #     name: DM Me
-  #     link: 'https://twitter.com/Twitter'
+  contact_links:
+    # - icon: twitter
+    #   icon_pack: fab
+    #   name: DM Me
+    #   link: 'https://twitter.com/scannell_aidan'
+    - icon: linkedin
+      icon_pack: fab
+      name: DM Me
+      link: 'https://www.linkedin.com/in/aidan-scannell-82522789'
   #   - icon: video
   #     icon_pack: fas
   #     name: Zoom Me
   #     link: 'https://zoom.com'
+  address:
+    street: Room 3578, Maarintie 8, Espoo
+    city: Helsinki
+    region:
+    postcode: '02150'
+    country: Finland
+    country_code: fi
+  coordinates:
+    latitude: '60.18687291902104'
+    longitude: '24.820030343777994'
+  # directions:
+  # office_hours:
+    # - 'Monday 10:00 to 13:00'
+    # - 'Wednesday 09:00 to 10:00'
+  # appointment_url: 'https://calendly.com'
 
 design:
   columns: '2'
