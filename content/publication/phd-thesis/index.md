@@ -41,7 +41,7 @@ featured: true
 #   icon: twitter
 
 # TODO update pdf to point to final submission
-url_pdf: https://github.com/aidanscannell/phd-thesis/releases/download/initial-submission/phd-thesis-signed-submitted.pdf
+url_pdf: https://github.com/aidanscannell/phd-thesis/releases/download/final-submission/phd-thesis-signed-final-submission.pdf
 url_code: https://github.com/aidanscannell/modeopt
 url_dataset:
 url_poster:
