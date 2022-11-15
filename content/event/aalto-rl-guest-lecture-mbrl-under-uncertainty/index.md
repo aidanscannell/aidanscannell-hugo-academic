@@ -53,7 +53,7 @@ url_slides: https://docs.google.com/presentation/d/1mnC_6PQkL9iXaIjo0NVzEjxwXz-C
 
 url_code:
 url_pdf:
-url_video:
+url_video: https://aalto.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=5868d4fc-7767-4b53-9e43-af4e00c97eca
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.
