@@ -82,13 +82,15 @@ highlight_name: true
 
 <!-- I am particularly interested in methods that leverage machine learning to solve real-world decision-making problems. -->
 <!-- As a result, a lot of my work focuses on uncertainty quantification in machine learning and decision-making under uncertainty. -->
+<!-- Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of probabilistic machine  -->
+<!-- learning, control theory and robotics. -->
 Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of probabilistic machine 
-learning, control theory and robotics.
+learning, reinforcement learning and robotics.
 I am currently a  [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher 
 at [Aalto University](https://www.aalto.fi/en) 
 in Joni Pajarinen's [Robot Learning Lab](https://rl.aalto.fi/)
 and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asolin/group/).
-The postdoc is focused on "Model-based reinforcement learning under uncertainty".
+<!-- The postdoc is focused on "Model-based reinforcement learning under uncertainty". -->
 <!-- I am particularly interested in methods that leverage machine learning to solve real-world decision-making problems. -->
 
 <!-- I am particularly interested in solving real-world decision-making problems . -->
@@ -101,10 +103,25 @@ The postdoc is focused on "Model-based reinforcement learning under uncertainty"
 <!-- ["Bayesian Learning for Control in Multimodal Dynamical Systems"](https://github.com/aidanscannell/phd-thesis) from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek. -->
 
 I obtained my PhD from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek.
+During my PhD I (attempted to) control quadcopters in uncertain environments by synergising methods from 
+probabilistic machine learning, Riemannian geometry and reinforcement learning.
 If you're interested, my PhD thesis can be found [here](https://github.com/aidanscannell/phd-thesis).
-It presents novel methods for controlling robotic systems subject to unknown, multimodal dynamics, where some of 
-the underlying dynamics modes are believed to be inoperable. 
-For example, controlling quadcopters subject to turbulent dynamics modes in unknown locations.
+
+
+<!-- As a result, a lot of my work focuses on uncertainty quantification in machine learning and decision-making under uncertainty. -->
+
+<!-- Most of the work by synergising methods for probabilistic machine -->
+<!-- I (attempt to) control quadcopters subject to turbulent dynamics modes by synergising methods for probabilistic machine -->
+<!-- learning,  -->
+<!-- Riemannian geometry -->
+
+<!-- robotic systems subject to unknown, multimodal dynamics, where some of  -->
+<!-- the underlying dynamics modes are believed to be inoperable.  -->
+<!-- For example,  -->
+
+<!-- It presents novel methods for controlling robotic systems subject to unknown, multimodal dynamics, where some of  -->
+<!-- the underlying dynamics modes are believed to be inoperable.  -->
+<!-- For example, controlling quadcopters subject to turbulent dynamics modes in unknown locations. -->
 
 <!-- from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of  -->
 <!-- Professor Arthur Richards and Dr Carl Henrik Ek. -->
