@@ -28,7 +28,8 @@ design:
 <!-- - Paper accepted to [26th International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/) -->
 <!-- - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) -->
 - [20.01.23] - Paper accepted to [AISTATS 2023](https://virtual.aistats.org/Conferences/2023) - ["Mode-Constrained Model-Based Reinforcement Learning via Gaussian Processes"](./publication/mode-constrained-mbrl)
-- [16.11.22] - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) - "Investigating BNN Dynamics Models for Model-Based RL"
+- [17.01.23] - I'll be co-lecturing on Aalto University's [Gaussian process course](https://mycourses.aalto.fi/course/view.php?id=36657) - "Sequential decision-making"
+- [16.11.22] - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) - ["Investigating BNN Dynamics Models for Model-Based RL"](./project/investigating-bnn-dynamics-models-for-mbrl/)
 - [08.11.22] - Guest lecture on Aalto University's Reinforcement Learning course - ["Model-based RL under uncertainty: the importance of knowing what you don't know"](./talk/model-based-reinforcement-learning-under-uncertainty-the-importance-of-knowing-what-you-dont-know/)
 - [04.07.22] - Started as a postdoctoral researcher @ Aalto University
 - [23.06.22] - Successfully defended my PhD
