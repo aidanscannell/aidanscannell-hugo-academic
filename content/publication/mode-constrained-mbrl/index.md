@@ -32,13 +32,13 @@ featured: True
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+ - name: Follow
+   url: https://twitter.com/scannell_aidan/status/1617792928646311937
+   icon_pack: fab
+   icon: twitter
 
-#url_pdf: "/publication/mode-constrained-mbrl/paper.pdf"
+url_pdf: "/publication/mode-constrained-mbrl/initial-submission.pdf"
 url_code: "https://github.com/aidanscannell/ModeRL"
 url_dataset:
 url_poster:
@@ -60,7 +60,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects: [mode-remaining-exploration-for-model-based-reinforcement-learning]
+projects: [mode-constrained-model-based-reinforcement-learning]
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
