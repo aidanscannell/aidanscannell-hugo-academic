@@ -27,6 +27,7 @@ design:
 
 <!-- - Paper accepted to [26th International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/) -->
 <!-- - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) -->
+- [24.02.23] - Camera-ready version of our AISTATS 2023 paper is now on my website - [see here](./publication/mode-constrained-mbrl)
 - [20.01.23] - I'll be visiting University of Cambridge 13th-14th February and [presenting some of my research](talk/model-based-reinforcement-learning-under-uncertainty/) to [ML@CL](https://mlatcl.github.io/)
 - [20.01.23] - Paper accepted to [AISTATS 2023](https://virtual.aistats.org/Conferences/2023) - ["Mode-Constrained Model-Based Reinforcement Learning via Gaussian Processes"](./publication/mode-constrained-mbrl)
 - [17.01.23] - I'll be co-lecturing on Aalto University's [Gaussian process course](https://mycourses.aalto.fi/course/view.php?id=36657) - "Sequential decision-making"
