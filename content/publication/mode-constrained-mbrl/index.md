@@ -44,7 +44,7 @@ url_dataset:
 url_poster:
 url_project:
 url_slides:
-#url_source: https://github.com/aidanscannell/aistats-2023-mode-remaining-exploration
+url_source: https://github.com/aidanscannell/aistats-2023-mode-constrained-model-based-rl
 url_video:
 
 # Featured image
