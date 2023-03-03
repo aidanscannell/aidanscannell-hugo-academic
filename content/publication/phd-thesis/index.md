@@ -30,7 +30,7 @@ summary: "Mode remaining navigation (and exploration) in unknown multimodal dyna
 
 tags: ["machine-learning", "reinforcement-learning", "gaussian-processes", "probabilistic-modelling", "approximate-inference", "variational-inference", "geometry", "control", "ai", "JAX", "TensorFlow", "python"]
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
