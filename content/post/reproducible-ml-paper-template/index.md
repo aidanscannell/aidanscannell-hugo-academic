@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Reproducible ML Paper Template"
+title: "A Template for Writing Reproducible ML Papers"
 subtitle: ""
 summary: "I created a repository with a basic template for making a reproducible research paper. See the [README](https://github.com/aidanscannell/reproducible-research-project-template) for up to date info on how to use the template."
 authors: [Aidan Scannell]
