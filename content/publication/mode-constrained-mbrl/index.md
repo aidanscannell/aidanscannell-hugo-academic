@@ -41,7 +41,7 @@ links:
 url_pdf: "/publication/mode-constrained-mbrl/paper.pdf"
 url_code: "https://github.com/aidanscannell/ModeRL"
 url_dataset:
-url_poster:
+url_poster: "/publication/mode-constrained-mbrl/poster.pdf"
 url_project:
 url_slides:
 url_source: https://github.com/aidanscannell/aistats-2023-mode-constrained-model-based-rl
