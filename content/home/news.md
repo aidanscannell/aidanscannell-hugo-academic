@@ -27,6 +27,7 @@ design:
 
 <!-- - Paper accepted to [26th International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/) -->
 <!-- - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) -->
+- [22.06.23] - Paper accepted to [ICML Duality Principles for Modern Machine Learning Workshop](https://dp4ml.github.io/) - Sparse Function-Space Representation of Neural Networks
 - [03.03.23] - I've made a [template for writing reproducible ML papers](./post/reproducible-ml-paper-template/)
 - [24.02.23] - Camera-ready version of our AISTATS 2023 paper is now on my website - [see here](./publication/mode-constrained-mbrl)
 - [20.01.23] - I'll be visiting University of Cambridge 13th-14th February and [presenting some of my research](talk/model-based-reinforcement-learning-under-uncertainty/) to [ML@CL](https://mlatcl.github.io/)
