@@ -39,7 +39,7 @@ summary: Synergising Bayesian inference and Riemannian geometry for control in m
 tags: ["control", "geometry", "machine-learning", "python", "JAX", "gaussian-processes", "probabilistic-modelling"]
 
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
