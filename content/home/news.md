@@ -27,16 +27,17 @@ design:
 
 <!-- - Paper accepted to [26th International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/) -->
 <!-- - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) -->
-- [22.06.23] - Our paper titled [Sparse Function-Space Representation of Neural Networks](./publication/sparse-function-space-representation-of-neural-networks) got accepted to the [Duality Principles for Modern Machine Learning ICML 2023 Workshop](https://dp4ml.github.io/)
-- [03.03.23] - I've made a [template for writing reproducible ML papers](./post/reproducible-ml-paper-template/)
-- [24.02.23] - Camera-ready version of our AISTATS 2023 paper is now on my website - [see here](./publication/mode-constrained-mbrl)
-- [20.01.23] - I'll be visiting University of Cambridge 13th-14th February and [presenting some of my research](talk/model-based-reinforcement-learning-under-uncertainty/) to [ML@CL](https://mlatcl.github.io/)
-- [20.01.23] - Paper accepted to [AISTATS 2023](https://virtual.aistats.org/Conferences/2023) - ["Mode-Constrained Model-Based Reinforcement Learning via Gaussian Processes"](./publication/mode-constrained-mbrl)
-- [17.01.23] - I'll be co-lecturing on Aalto University's [Gaussian process course](https://mycourses.aalto.fi/course/view.php?id=36657) - "Sequential decision-making"
-- [16.11.22] - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) - ["Investigating BNN Dynamics Models for Model-Based RL"](./project/investigating-bnn-dynamics-models-for-mbrl/)
-- [08.11.22] - Guest lecture on Aalto University's Reinforcement Learning course - ["Model-based RL under uncertainty: the importance of knowing what you don't know"](./talk/model-based-reinforcement-learning-under-uncertainty-the-importance-of-knowing-what-you-dont-know/)
-- [04.07.22] - Started as a postdoctoral researcher @ Aalto University
-- [23.06.22] - Successfully defended my PhD
+- 03.08.23 - [Talk] I will be giving a contributed talk at the [International Workshop of Intelligent Autonomous Learning Systems 2023](https://www.ias.informatik.tu-darmstadt.de/Workshop/IWIALS) on ["Uncertainty Quantification in Model-based Reinforcement Learning"](./talk/uncertainty-quantification-in-model-based-reinforcement-learning/)
+- 22.06.23 - [Paper] Our paper titled [Sparse Function-Space Representation of Neural Networks](./publication/sparse-function-space-representation-of-neural-networks) got accepted to the [Duality Principles for Modern Machine Learning ICML 2023 Workshop](https://dp4ml.github.io/)
+- 03.03.23 - I've made a [template for writing reproducible ML papers](./post/reproducible-ml-paper-template/)
+- 24.02.23 - Camera-ready version of our AISTATS 2023 paper is now on my website - [see here](./publication/mode-constrained-mbrl)
+- 20.01.23 - [Talk] I'll be visiting University of Cambridge 13th-14th February and [presenting some of my research](talk/model-based-reinforcement-learning-under-uncertainty/) to [ML@CL](https://mlatcl.github.io/)
+- 20.01.23 - [Paper] Paper accepted to [AISTATS 2023](https://virtual.aistats.org/Conferences/2023) - ["Mode-Constrained Model-Based Reinforcement Learning via Gaussian Processes"](./publication/mode-constrained-mbrl)
+- 17.01.23 - [Lecture] I'll be co-lecturing on Aalto University's [Gaussian process course](https://mycourses.aalto.fi/course/view.php?id=36657) - "Sequential decision-making"
+- 16.11.22 - [Poster] Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) - ["Investigating BNN Dynamics Models for Model-Based RL"](./project/investigating-bnn-dynamics-models-for-mbrl/)
+- 08.11.22 - [Lecture] Guest lecture on Aalto University's Reinforcement Learning course - ["Model-based RL under uncertainty: the importance of knowing what you don't know"](./talk/model-based-reinforcement-learning-under-uncertainty-the-importance-of-knowing-what-you-dont-know/)
+- 04.07.22 - Started as a postdoctoral researcher @ Aalto University
+- 23.06.22 - Successfully defended my PhD
 
 
 
