@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Uncertainty quantification in model-based reinforcement learning"
+title: "Neural Networks as Sparse Gaussian Processes for Sequential Learning"
 event: International Workshop of Intelligent Autonomous Learning Systems 2023
 event_url: https://www.ias.informatik.tu-darmstadt.de/Workshop/IWIALS
 location: Darmstädter Haus and Sporthotel Walliser, Kleinwalsertal, Austria
@@ -11,8 +11,9 @@ address:
   region:
   postcode:
   country:
-summary: I will be presenting my research on uncertainty quantification in model-based reinforcement learning at the [International Workshop of Intelligent Autonomous Learning Systems 2023](https://www.ias.informatik.tu-darmstadt.de/Workshop/IWIALS).
-abstract: 
+summary: I will be presenting our research on bayesian deep learning for sequential learning at the [International Workshop of Intelligent Autonomous Learning Systems 2023](https://www.ias.informatik.tu-darmstadt.de/Workshop/IWIALS).
+abstract: |
+  Deep neural networks are known to lack uncertainty estimates, struggle to incorporate new data, and suffer from catastrophic forgetting. In this talk, I'll present our method that attempts to mitigate these issues by converting neural networks from weight-space to a sparse Gaussian process, via the so-called dual parameters. This offers a compact and principled way of capturing uncertainty and enables us to incorporate new data without retraining whilst retaining predictive performance. I’ll demonstrate the proposed approach for quantifying uncertainty in supervised learning, maintaining an expressive functional representation for continual learning, and guiding exploration in model-based reinforcement learning.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
