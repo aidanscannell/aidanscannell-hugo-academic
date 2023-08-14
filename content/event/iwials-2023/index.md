@@ -49,11 +49,11 @@ image:
 #   icon: twitter
 
 # Optional filename of your slides within your event's folder or a URL.
-url_slides: 
-
+url_slides: https://docs.google.com/presentation/d/1_PybhX2IJaCz6ctjoQBc4Vu_t9erbNaBEwUA6zZamjE/edit?usp=sharing
 url_code:
 url_pdf:
 url_video: 
+url_poster:  poster.pdf
 
 # Markdown Slides (optional).
 #   Associate this event with Markdown slides.
