@@ -2,8 +2,8 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "(Function-space) Laplace Approximation for Bayesian Neural Networks"
-event: 
-event_url: 
+event: NSF Safe RL Team
+event_url: https://naira.mechse.illinois.edu/nsf-award-granted-safe-reinforcement-learning-in-non-stationary-environments-with-fast-adaptation-and-disturbance-prediction/
 location: Zoom
 address:
   street:
@@ -13,14 +13,15 @@ address:
   country:
 summary: 
 abstract: |
+  In this talk, I'll present an overview of the Laplace approximation for quantifying uncertainty in Bayesian neural networks. I'll then introduce our work, name Sparse Function-space Representation (SFR), which can be viewed as a function-space Laplace approximation for BNNs. I’ll demonstrate the proposed approach for quantifying uncertainty in supervised learning, maintaining an expressive functional representation for continual learning, and guiding exploration in model-based reinforcement learning.
   <!-- Deep neural networks are known to lack uncertainty estimates, struggle to incorporate new data, and suffer from catastrophic forgetting. In this talk, I'll present our method that attempts to mitigate these issues by converting neural networks from weight-space to a sparse Gaussian process, via the so-called dual parameters. This offers a compact and principled way of capturing uncertainty and enables us to incorporate new data without retraining whilst retaining predictive performance. I’ll demonstrate the proposed approach for quantifying uncertainty in supervised learning, maintaining an expressive functional representation for continual learning, and guiding exploration in model-based reinforcement learning. -->
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 # date: 2022-11-15T14:15
 # date_end: 2022-11-15T16:00
-date: 2023-08-15T14:50:14+02:00
-date_end: 2023-08-15T15:05:14+02:00
+date: 2023-10-03T16:30:00
+date_end: 2023-10-03T17:30:00
 all_day: false
 
 # Schedule page publish date (NOT event date).
