@@ -26,7 +26,7 @@ content:
 
   # Contact details (edit or remove options as required)
   email: scannell.aidan@gmail.com
-  phone: +44 7875583912
+  phone: 
   contact_links:
     # - icon: twitter
     #   icon_pack: fab
