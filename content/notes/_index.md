@@ -3,7 +3,7 @@
 title: Notes
 
 # Title for the menu link if you wish to use a shorter link title, otherwise remove this option.
-# linktitle: Notes
+linktitle: Notes
 
 # Page summary for search engines.
 summary: A collection of notes for myself and anyone that's interested.

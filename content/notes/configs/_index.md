@@ -6,7 +6,7 @@ title: My dotfiles
 linktitle: .Dotfiles
 
 # Page summary for search engines.
-summary: My .dotfiles
+summary: My .dotfiles for OSX, Emacs, etc...
 
 # Date page published
 date: 2018-09-09
