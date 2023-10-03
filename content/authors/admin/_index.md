@@ -23,13 +23,20 @@ bio: My research interests include model-based reinforcement learning, probabili
 # Interests to show in About widget
 interests:
   - Reinforcement learning
+#  - Lifelong reinforcement learning
+  - World models
+  - Decision-making under uncertainty
   - Probabilistic machine learning
-#  - Decision-making under uncertainty
-  - Approximate inference
-  - Bayesian neural networks
-  - Gaussian processes
-  - Control theory
+#  - Continual learning
+#  - Bayesian optimization
   - Robotics
+#  - ...
+#  - Bayesian optimization
+#  - Decision-making under uncertainty
+#  - Approximate inference
+#  - Bayesian neural networks
+#  - Gaussian processes
+#  - Control theory
 
 # Education to show in About widget
 education:
@@ -84,7 +91,7 @@ highlight_name: true
 <!-- As a result, a lot of my work focuses on uncertainty quantification in machine learning and decision-making under uncertainty. -->
 <!-- Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of probabilistic machine  -->
 <!-- learning, control theory and robotics. -->
-Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of probabilistic machine 
+Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of (probabilistic) machine 
 learning, reinforcement learning and robotics.
 I am currently a  [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher 
 at [Aalto University](https://www.aalto.fi/en) 
