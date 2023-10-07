@@ -17,6 +17,11 @@ or to include drafts use,
 hugo server --disableFastRender -D
 ```
 
+Sometimes we need to trash Hugo's cache with
+```shell
+$TMPDIR/hugo_cache
+```
+
 ### Continuous deployment
 
 Push to origin/main on GitHub to deploy to [www.aidanscannell.com](www.aidanscannell.com) using netlify.
