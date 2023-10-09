@@ -38,7 +38,7 @@ links:
    icon_pack: fab
    icon: twitter
 
-url_pdf: "/publication/mode-constrained-mbrl/paper.pdf"
+url_pdf: https://proceedings.mlr.press/v206/scannell23a.html
 url_code: "https://github.com/aidanscannell/ModeRL"
 url_dataset:
 url_poster: "/publication/mode-constrained-mbrl/poster.pdf"
