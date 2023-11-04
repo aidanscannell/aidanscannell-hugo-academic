@@ -34,14 +34,16 @@ featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-#links:
+links:
+ - name: Website
+   url: https://aaltoml.github.io/sfr
 # - name: Follow
 #   url: https://twitter.com/scannell_aidan/status/1617792928646311937
 #   icon_pack: fab
 #   icon: twitter
 
 url_pdf: "https://arxiv.org/abs/2309.02195"
-url_code: 
+url_code: https://github.com/AaltoML/sfr
 url_dataset:
 url_poster: "/publication/sparse-function-space-representation-of-neural-networks/poster.pdf"
 url_project:
