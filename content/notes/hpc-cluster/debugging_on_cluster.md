@@ -32,7 +32,7 @@ summary: Tips for debugging Python ML code on a GPU cluster
     ```
 7. Run code again 
     ```sh
-    python train.py
+    python -m pdb train.py
     ```
 
 ## Check you have GPU
