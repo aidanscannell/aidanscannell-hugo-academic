@@ -1,6 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
+draft: true
 
 title: "Function-space Prameterization of Neural Networks for Sequential Learning"
 authors: [Aidan Scannell, Riccardo Mereu, Paul Chang, Ella Tamir, Joni Pajarinen, Arno Solin]
