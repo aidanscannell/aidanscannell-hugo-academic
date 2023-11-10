@@ -84,7 +84,7 @@ highlight_name: true
 ---
 Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine
 learning, sequential decision making and robotics.
-My research aims at enabling autonomous agents to learn behaviors, such that they can learn to solve any task.
+My research aims at enabling autonomous agents to learn behaviours, such that they can learn to solve any task.
 I am particularly interested in robotics applications and the challenges associated with deploying lifelong agents.
 
 <!-- In my research, I focus on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, as well as a range of other domains that require autonomous decision making. To see a more formal biography, click here. -->
