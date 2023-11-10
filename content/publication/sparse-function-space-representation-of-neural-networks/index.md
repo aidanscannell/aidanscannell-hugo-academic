@@ -4,6 +4,9 @@
 
 title: "Sparse Function-space Representation of Neural Networks"
 authors: [Aidan Scannell, Riccardo Mereu, Paul Chang, Ella Tamir, Joni Pajarinen, Arno Solin]
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 # date: 2023-04-27T21:01:09+03:00
 date: 2023-07-21
 doi: ""
@@ -30,7 +33,7 @@ summary: ""
 
 tags: ["neural-networks", "bayesian-deep-learning", "gaussian-processes", "bayesian-inference", "machine-learning", "approximate-inference"]
 categories: []
-featured: false
+featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
