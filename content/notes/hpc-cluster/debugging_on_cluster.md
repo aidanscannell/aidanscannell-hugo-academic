@@ -5,16 +5,10 @@ type: book
 summary: Tips for debugging Python ML code on a GPU cluster
 ---
 ## TL;DR
-- Check you have GPU PyTorch/JAX/TensorFlow
 - Use the [python debugger](https://docs.python.org/3/library/pdb.html) inside interactive jobs (on GPU)
+- Check you have GPU PyTorch/JAX/TensorFlow
 
 ## Debugging on a cluster
-
-<!-- Use tmux -->
-<!-- ```sh -->
-<!-- tmux -->
-<!-- ``` -->
-<!-- Importantly, you can continuously run/cancel jobs until the 5 minutes is up. -->
 1. Start a short (5 minute) interactive job (on GPU)
     ```sh
     srun --mem=32gb --gres=gpu:1 -p gpu --time=0:05:00 --pty zsh
