@@ -4,6 +4,10 @@ date: 2019-05-05
 type: book
 summary: Don't enter your password every time you SSH into a cluster
 ---
+## TL;DR
+- Don't enter your password every time you SSH into a cluster
+
+## Configure SSH
 Add your cluster login details to your ssh config `~/.ssh/config` so that you can log in with
 ```sh
 shh CLUSTER_NAME
