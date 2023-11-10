@@ -28,7 +28,7 @@ summary: "We present a model-based RL algorithm that constrains training to a si
 
 tags: ["model-based reinforcement learning", "gaussian-processes", "bayesian-inference", "variational-inference", "machine-learning", "approximate-inference"]
 categories: []
-featured: True
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.

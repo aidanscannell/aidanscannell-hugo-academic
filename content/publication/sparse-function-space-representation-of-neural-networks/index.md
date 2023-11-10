@@ -33,7 +33,7 @@ summary: ""
 
 tags: ["neural-networks", "bayesian-deep-learning", "gaussian-processes", "bayesian-inference", "machine-learning", "approximate-inference"]
 categories: []
-featured: true
+featured: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
