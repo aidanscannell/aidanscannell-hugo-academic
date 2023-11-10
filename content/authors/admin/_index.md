@@ -82,6 +82,26 @@ email: "scannell.aidan@gmail.com"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine
+learning, sequential decision making and robotics.
+My research aims at enabling autonomous agents to learn behaviors, such that they can learn to solve any task.
+I am particularly interested in robotics applications and the challenges associated with deploying lifelong agents.
+
+<!-- In my research, I focus on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, as well as a range of other domains that require autonomous decision making. To see a more formal biography, click here. -->
+
+<!-- My research aims to develop autonomous agents principled reinforcement learning (RL) algorithms that obtain state-of-the-art performance with a higher degree of simplicity, scalability, and robustness than current methods.  -->
+<!-- Much of my work uses ideas for probabilistic inference to make progress on a important problems in RL (e.g., long-horizon and high-dimensional reasoning, robustness, exploration). -->
+
+
+### Bio:
+I am a [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher 
+at [Aalto University](https://www.aalto.fi/en) 
+in Joni Pajarinen's [Robot Learning Lab](https://rl.aalto.fi/)
+and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asolin/group/).
+I obtained my PhD from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Arthur Richards and Carl Henrik Ek.
+During my PhD I developed methods for controlling quadcopters in uncertain environments by synergising methods from 
+probabilistic machine learning, Riemannian geometry and reinforcement learning.
+<!-- If you're interested, my PhD thesis can be found [here](https://github.com/aidanscannell/phd-thesis). -->
 
 <!-- My name is Aidan Scannell and I am a PhD researcher at the *University of Bristol* and the *Bristol Robotics Laboratory* under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek. -->
 <!-- I grew up in North Yorkshire and graduated from the University of Bristol in 2016 with an MEng in Mechanical Engineering. -->
@@ -91,14 +111,12 @@ highlight_name: true
 <!-- As a result, a lot of my work focuses on uncertainty quantification in machine learning and decision-making under uncertainty. -->
 <!-- Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of probabilistic machine  -->
 <!-- learning, control theory and robotics. -->
-Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of (probabilistic) machine 
-learning, reinforcement learning and robotics.
-I am currently a  [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher 
-at [Aalto University](https://www.aalto.fi/en) 
-in Joni Pajarinen's [Robot Learning Lab](https://rl.aalto.fi/)
-and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asolin/group/).
-<!-- The postdoc is focused on "Model-based reinforcement learning under uncertainty". -->
-<!-- I am particularly interested in methods that leverage machine learning to solve real-world decision-making problems. -->
+<!-- Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of (probabilistic) machine  -->
+<!-- learning, reinforcement learning and robotics. -->
+<!-- I am currently a  [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher  -->
+<!-- at [Aalto University](https://www.aalto.fi/en)  -->
+<!-- in Joni Pajarinen's [Robot Learning Lab](https://rl.aalto.fi/) -->
+<!-- and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asolin/group/). -->
 
 <!-- I am particularly interested in solving real-world decision-making problems . -->
 <!-- <\!-- As a result, a lot of my work focuses on uncertainty quantification in machine learning and decision-making under uncertainty. -\-> -->
@@ -109,10 +127,10 @@ and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asoli
 
 <!-- ["Bayesian Learning for Control in Multimodal Dynamical Systems"](https://github.com/aidanscannell/phd-thesis) from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek. -->
 
-I obtained my PhD from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek.
-During my PhD I (attempted to) control quadcopters in uncertain environments by synergising methods from 
-probabilistic machine learning, Riemannian geometry and reinforcement learning.
-If you're interested, my PhD thesis can be found [here](https://github.com/aidanscannell/phd-thesis).
+<!-- I obtained my PhD from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek. -->
+<!-- During my PhD I (attempted to) control quadcopters in uncertain environments by synergising methods from  -->
+<!-- probabilistic machine learning, Riemannian geometry and reinforcement learning. -->
+<!-- If you're interested, my PhD thesis can be found [here](https://github.com/aidanscannell/phd-thesis). -->
 
 
 <!-- As a result, a lot of my work focuses on uncertainty quantification in machine learning and decision-making under uncertainty. -->

@@ -38,4 +38,5 @@ hero_media = ""
   label = ''
 +++
 
-Postdoctoral researcher | Probabilistic machine learning | Reinforcement learning | Robotics
+Postdoctoral researcher | Machine learning | Sequential decision making | Robotics
+<!-- Postdoctoral researcher | Probabilistic machine learning | Reinforcement learning | Robotics -->
