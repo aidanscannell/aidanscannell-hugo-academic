@@ -1,0 +1,35 @@
+#+title: Model-based value expansion
+#+date: 2023-11-30T14:14:03+02:00
+#+TAGS[]: reinforcement-learning model-based-value-expansion
+#+DRAFT: true
+#+EXPORT_FILE_NAME: mve.md
+#+OPTIONS: toc:nil
+#+BIBLIOGRAPHY: /Users/scannea1/Library/Mobile Documents/com~apple~CloudDocs/org/ref/zotero-library.bib
+#+CITE_EXPORT: csl  ~/Zotero/Styles/chicago-author-date.csl
+# ----------------------- OX Hugo export properties
+#+HUGO_BASE_DIR: ~/web-projects/aidanscannell-hugo-academic/
+#+HUGO_SECTION: notes/reading/
+#+HUGO_FRONT_MATTER_FORMAT: yaml
+#+HUGO_LEVEL_OFFSET: 0
+#+HUGO_DRAFT: true
+#+HUGO_CUSTOM_FRONT_MATTER: :type book
+#+HUGO_CUSTOM_FRONT_MATTER: :summary Notes on model-based value expansion (MVE)
+# ---------------------FRONT-MATTER END -----------------------
+
+Model-based value expansion (MVE) was first proposed by[cite:@feinbergModelBasedValueEstimation2018].
+They expand the critic's target value using a deterministic dynamics model.
+
+Stochastic ensemble value expansion (STEVE) [cite:@buckmanSampleEfficientReinforcementLearning2018] extend MVE by learning a dynamics model with an ensemble of probabilistic NNs.
+It combines different length value expansions by weighting them according to the inverse-variance from the dynamics ensemble.
+
+Stochastic value gradient (SVG) [cite:@amosModelBasedStochasticValue2021] uses a deterministic dynamics model for MVE of policy (actor) objective but not the critic.
+It then uses SAC to get exploration using entropy.
+
+[cite:@palenicekDiminishingReturnValue2022;@palenicekRevisitingModelbasedValue2022] tried using the oracle dynamics (i.e. the simulator) for the model-based value expansion.
+They found that even when using the oracle dynamics, model-based value expansion could not improve sample efficiency.
+They suggest model-free value expansion (e.g. Retrace) is a strong baseline without the computational overhead of model-based methods.
+I can't help but think they could increase the UTD when using MVE to see improvement in sample efficiency.
+
+
+* References :ignore:
+#+PRINT_BIBLIOGRAPHY:
