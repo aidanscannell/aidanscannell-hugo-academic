@@ -24,9 +24,10 @@ bio: My research interests include model-based reinforcement learning, probabili
 interests:
   - Reinforcement learning
 #  - Lifelong reinforcement learning
+  - Lifelong learning
   - World models
-  - Decision-making under uncertainty
   - Probabilistic machine learning
+  - Decision-making under unc.
 #  - Continual learning
 #  - Bayesian optimization
   - Robotics
