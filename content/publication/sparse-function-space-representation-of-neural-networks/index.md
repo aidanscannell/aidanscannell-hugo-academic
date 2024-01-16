@@ -13,7 +13,6 @@ doi: ""
 
 # Schedule page publish date (NOT publication's date).
 publishDate: 2023-07-20T16:01:09+03:00
-<!-- publishDate: 2022-10-16T21:01:09+03:00 -->
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
