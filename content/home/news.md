@@ -28,6 +28,7 @@ design:
 <!-- - Paper accepted to [26th International Conference on Artificial Intelligence and Statistics (AISTATS)](https://aistats.org/) -->
 <!-- - Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) -->
 
+- 22.06.23 - [Paper] New paper accepted to [ICLR 2024](https://iclr.cc/Conferences/2024) - [Function-space Prameterization of Neural Networks for Sequential Learning](./publication/function-space-parameterization-of-neural-networks-for-sequential-learning) 
 - 03.10.23 - [Talk] Giving a talk on ["(Function-space) Laplace approximation for Bayesian neural networks"](./talk/function-space-laplace-approximation-for-bayesian-neural-networks) to the [NSF](https://www.nsf.gov/pubs/2021/nsf21035/nsf21035.jsp) [safe RL team](https://naira.mechse.illinois.edu/nsf-award-granted-safe-reinforcement-learning-in-non-stationary-environments-with-fast-adaptation-and-disturbance-prediction/).
 - 03.08.23 - [Talk] Presenting our work on ["Neural Networks as Sparse Gaussian Processes for Sequential Learning"](./talk/neural-networks-as-sparse-gaussian-processes-for-sequential-learning/) at the [International Workshop of Intelligent Autonomous Learning Systems 2023](https://www.ias.informatik.tu-darmstadt.de/Workshop/IWIALS).
 - 22.06.23 - [Paper] Our paper titled [Sparse Function-Space Representation of Neural Networks](./publication/sparse-function-space-representation-of-neural-networks) got accepted to the [Duality Principles for Modern Machine Learning ICML 2023 Workshop](https://dp4ml.github.io/)
