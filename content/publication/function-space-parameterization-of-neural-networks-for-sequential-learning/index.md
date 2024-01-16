@@ -46,7 +46,7 @@ links:
 #   icon: twitter
 
 
-url_pdf: "https://openreview.net/forum?id=2dhxxIKhqz&noteId=1udlCkoTob"
+url_pdf: https://openreview.net/pdf?id=2dhxxIKhqz
 url_code: https://github.com/AaltoML/sfr
 url_dataset:
 url_poster: 
