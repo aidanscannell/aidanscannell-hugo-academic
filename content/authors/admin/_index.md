@@ -102,7 +102,7 @@ in Joni Pajarinen's [Robot Learning Lab](https://rl.aalto.fi/)
 and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asolin/group/).
 I obtained my PhD from the [University of Bristol](https://www.bristol.ac.uk/) under the supervision of Arthur Richards and Carl Henrik Ek.
 During my PhD I developed methods for controlling quadcopters in uncertain environments by synergising methods from 
-probabilistic machine learning, Riemannian geometry and reinforcement learning.
+probabilistic machine learning, stochastic differential geometry and reinforcement learning.
 <!-- If you're interested, my PhD thesis can be found [here](https://github.com/aidanscannell/phd-thesis). -->
 
 <!-- My name is Aidan Scannell and I am a PhD researcher at the *University of Bristol* and the *Bristol Robotics Laboratory* under the supervision of Professor Arthur Richards and Dr Carl Henrik Ek. -->
