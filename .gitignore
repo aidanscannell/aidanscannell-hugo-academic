@@ -11,3 +11,5 @@ go.sum
 
 .DS_store
 .gitkeep
+
+*.auctex-auto*
