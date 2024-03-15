@@ -22,7 +22,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 publication: "ICML 2023 Workshop on Duality Principles for Modern Machine Learning"
-publication_short: "DP4ML ICML 2023 Workshop"
+#publication_short: "DP4ML ICML 2023 Workshop"
 
 
 abstract: "Deep neural networks (NNs) are known to lack uncertainty estimates and struggle to incorporate new data. We present a method that mitigates these issues by converting NNs from weight space to function space, via a dual parameterization. Importantly, the dual parameterization enables us to formulate a sparse representation that captures information from the entire data set. This offers a compact and principled way of capturing uncertainty and enables us to incorporate new data without retraining whilst retaining predictive performance. We provide proof-of-concept demonstrations with the proposed approach for quantifying uncertainty in supervised learning on UCI benchmark tasks."
