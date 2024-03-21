@@ -23,14 +23,15 @@ bio: My research interests include model-based reinforcement learning, probabili
 # Interests to show in About widget
 interests:
   - Reinforcement learning
-#  - Lifelong reinforcement learning
-  - Lifelong learning
-  - World models
+  - Representation learning
   - Probabilistic machine learning
+  - Robotics
   - Decision-making under unc.
+  - World models
+  - Lifelong learning
+#  - Lifelong reinforcement learning
 #  - Continual learning
 #  - Bayesian optimization
-  - Robotics
 #  - ...
 #  - Bayesian optimization
 #  - Decision-making under uncertainty
