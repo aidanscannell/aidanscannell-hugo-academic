@@ -1,0 +1,18 @@
+**[05.04.24]**  New paper accepted to [L4DC 2024](https://l4dc.web.ox.ac.uk/) - [Residual Learning and Context Encoding for Adaptive Offline-to-Online Reinforcement Learning](./publication/residual-learning-and-context-encoding-for-adaptive-offline-to-online-rl)
+**[16.02.24]**  New paper accepted to [ICLR 2024](https://iclr.cc/Conferences/2024) - [Function-space Prameterization of Neural Networks for Sequential Learning](./publication/function-space-parameterization-of-neural-networks-for-sequential-learning)
+**[03.10.23]**  Giving a talk on ["(Function-space) Laplace approximation for Bayesian neural networks"](./talk/function-space-laplace-approximation-for-bayesian-neural-networks) to the [NSF](https://www.nsf.gov/pubs/2021/nsf21035/nsf21035.jsp) [safe RL team](https://naira.mechse.illinois.edu/nsf-award-granted-safe-reinforcement-learning-in-non-stationary-environments-with-fast-adaptation-and-disturbance-prediction/).
+**[03.08.23]**  Presenting our work on ["Neural Networks as Sparse Gaussian Processes for Sequential Learning"](./talk/neural-networks-as-sparse-gaussian-processes-for-sequential-learning/) at the [International Workshop of Intelligent Autonomous Learning Systems 2023](https://www.ias.informatik.tu-darmstadt.de/Workshop/IWIALS).
+**[22.06.23]**  Our paper titled [Sparse Function-Space Representation of Neural Networks](./publication/sparse-function-space-representation-of-neural-networks) got accepted to the [Duality Principles for Modern Machine Learning ICML 2023 Workshop](https://dp4ml.github.io/)
+**[03.03.23]**  I've made a [template for writing reproducible ML papers](./post/reproducible-ml-paper-template/)
+**[24.02.23]**  Camera-ready version of our AISTATS 2023 paper is now on my website - [see here](./publication/mode-constrained-mbrl)
+**[20.01.23]**  Visiting University of Cambridge 13th-14th February and [presenting some of my research](talk/model-based-reinforcement-learning-under-uncertainty/) to [ML@CL](https://mlatcl.github.io/)
+**[20.01.23]**  Paper accepted to [AISTATS 2023](https://virtual.aistats.org/Conferences/2023) - ["Mode-Constrained Model-Based Reinforcement Learning via Gaussian Processes"](./publication/mode-constrained-mbrl)
+**[17.01.23]**  Co-lecturing on Aalto University's [Gaussian process course](https://mycourses.aalto.fi/course/view.php?id=36657) - "Sequential decision-making"
+**[16.11.22]**  Poster accepted at [Finnish AI day](https://fcai.fi/ai-day-2022) - ["Investigating BNN Dynamics Models for Model-Based RL"](./project/investigating-bnn-dynamics-models-for-mbrl/)
+**[08.11.22]**  Guest lecture on Aalto University's Reinforcement Learning course - ["Model-based RL under uncertainty: the importance of knowing what you don't know"](./talk/model-based-reinforcement-learning-under-uncertainty-the-importance-of-knowing-what-you-dont-know/)
+**[04.07.22]**  Started as a postdoctoral researcher @ Aalto University
+**[23.06.22]**  Successfully defended my PhD
+
+#**[13/04/20]** New paper on [Stochastic Unit Commitment in Low-Inertia Grids](/publication/2020jpaturet/) published on IEEE Transactions on Power Systems.
+#**[12/02/20]** Seminar presentation on [Data-driven decentralised control design in Active Distribution Networks](/talk/2020-feb-ucy/) at [UCY](http://ucy.ac.cy).
+#**[31/12/19]** New paper on [ A Robust Coordinated Expansion Planning Model For Wind Farm-Integrated Power Systems With Flexibility Sources Using Affine Policies](/publication/2020jdehghan/) published on IEEE Systems Journal.
