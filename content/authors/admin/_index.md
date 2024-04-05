@@ -25,10 +25,10 @@ interests:
   - Reinforcement learning
   - Representation learning
   - Probabilistic machine learning
-  - Robotics
-  - Decision-making under unc.
+#  - Decision-making under unc.
   - World models
   - Lifelong learning
+  - Robotics
 #  - Lifelong reinforcement learning
 #  - Continual learning
 #  - Bayesian optimization
@@ -43,7 +43,7 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Robotics and Autonomous Systems
+    - course: PhD Robotics and Autonomous Systems
       institution: University of Bristol, UK
       year: 2022
     - course: MEng Mechanical Engineering
