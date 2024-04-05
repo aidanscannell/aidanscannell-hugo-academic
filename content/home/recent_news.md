@@ -52,4 +52,4 @@ title = "Recent News"
 
 {{< readfromfile "/content/newslist.dat" 5 >}} 
 
-[ALL NEWS](/news)
+[ALL NEWS>>](/news)
