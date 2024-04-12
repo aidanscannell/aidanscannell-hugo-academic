@@ -4,7 +4,7 @@
 title: "Mode-Constrained Exploration for Model-Based Reinforcement Learning"
 summary: "This work presents a learning-based control method for navigating to a target state in unknown, or partially unknown, multimodal dynamical systems. In particular, it develops a model-based reinforcement learning algorithm that can remain in a desired dynamics mode with high probability. For example, if some of the dynamics modes are believed to be inoperable."
 
-authors: [admin]
+authors: [Aidan Scannell, Carl Henrik Ek, Arthur Richards]
 tags: ["reinforcement-learning", "machine-learning", "gaussian-processes", "optimal-control", "robotics", "python", "TensorFlow", "GPflow", "research"]
 categories: []
 date: 2022-09-24T23:40:09+03:00
