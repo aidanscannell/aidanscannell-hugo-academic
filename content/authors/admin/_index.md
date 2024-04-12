@@ -23,11 +23,12 @@ bio: My research interests include model-based reinforcement learning, probabili
 # Interests to show in About widget
 interests:
   - Reinforcement learning
+  - Embodied AI
   - Representation learning
-  - Probabilistic machine learning
+#  - Probabilistic machine learning
 #  - Decision-making under unc.
   - World models
-  - Lifelong learning
+#  - Lifelong learning
   - Robotics
 #  - Lifelong reinforcement learning
 #  - Continual learning
@@ -87,8 +88,19 @@ highlight_name: true
 Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine
 learning, sequential decision making and robotics.
 My research aims at enabling autonomous agents to learn behaviours, such that they can learn to solve any task.
-I am particularly interested in robotics applications, the challenges associated with
-deploying lifelong agents, and equipping agents with the ability to know when they do not know.
+I am particularly interested in robotics applications and the challenges associated with learning policies which can generalise across tasks, objects and embodiments.
+Recently, I have become interested in controlling agents with natural language instructions whilst leveraging information from large offline data sets.
+<!-- the challenges associated with leveraging diverse offline data sets,  -->
+<!-- sensor modalities, large-scale offline data sets,  -->
+<!-- its three axes of generalisation: -->
+<!-- 1. **Tasks**: Generalising to unseen tasks. -->
+<!-- <\!-- 1. **Tasks**: Our policy should generalise across tasks, i.e. solve any task. -\-> -->
+<!-- 2. **Objects**: Generalising to unseen objects, i.e. if we learn the task of "picking" a cup it should generalise to "picking" other objects. -->
+<!-- <\!-- 2. **Objects**: It should generalise across objects, i.e. if we learn to "pick and place" a cup it should also "pick and place" a fork. -\-> -->
+<!-- 3. **Embodiments**: Finally, our policy should be able to solve a learned task on any embodiment (aka robot). -->
+
+<!-- I am particularly interested in robotics applications, the challenges associated with -->
+<!-- deploying lifelong agents, and equipping agents with the ability to know when they do not know. -->
 
 <!-- In my research, I focus on algorithms that can enable autonomous agents to acquire complex behaviors through learning, especially general-purpose methods that could enable any autonomous system to learn to solve any task. Applications of such methods include robotics, as well as a range of other domains that require autonomous decision making. To see a more formal biography, click here. -->
 
