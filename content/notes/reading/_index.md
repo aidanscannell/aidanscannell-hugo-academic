@@ -6,7 +6,7 @@ title: Reading
 #linktitle: Programming
 
 # Page summary for search engines.
-summary: Paper notes
+summary: Paper notes. This serves as my memory of different literature.
 
 # Date page published
 date: 2018-09-09
