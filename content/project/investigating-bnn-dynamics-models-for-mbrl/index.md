@@ -3,7 +3,7 @@
 
 title: "Investigating Bayesian Neural Network Dynamics Models for Model-Based Reinforcement Learning"
 summary: ""
-authors: []
+authors: [Aidan Scannell, Arno Solin, Joni Pajarinen]
 tags: ["model-based-reinforcement-learning", "reinforcement-learning", "machine-learning", "bayesian-neural-networks", "gaussian-processes", "research"]
 categories: []
 date: 2022-11-19T15:44:57+02:00
