@@ -1,13 +1,12 @@
 ---
 title: "Model-based value expansion"
 author: ["Aidan Scannell"]
-date: 2023-11-30T14:14:03+02:00
-draft: true
-type: "book"
+draft: false
 summary: "Notes on model-based value expansion (MVE)"
+type: "book"
 ---
 
-Model-based value expansion (MVE) was first proposed by(<a href="#citeproc_bib_item_3">Feinberg et al. 2018</a>).
+Model-based value expansion (MVE) was first proposed by Feinberg et al. (<a href="#citeproc_bib_item_3">2018</a>).
 They expand the critic's target value using a deterministic dynamics model.
 
 Stochastic ensemble value expansion (STEVE) (<a href="#citeproc_bib_item_2">Buckman et al. 2018</a>) extend MVE by learning a dynamics model with an ensemble of probabilistic NNs.
@@ -16,12 +15,12 @@ It combines different length value expansions by weighting them according to the
 Stochastic value gradient (SVG) (<a href="#citeproc_bib_item_1">Amos et al. 2021</a>) uses a deterministic dynamics model for MVE of policy (actor) objective but not the critic.
 It then uses SAC to get exploration using entropy.
 
-(<a href="#citeproc_bib_item_4">Palenicek et al. 2022</a>; <a href="#citeproc_bib_item_5">Palenicek, Lutter, and Peters 2022</a>) tried using the oracle dynamics (i.e. the simulator) for the model-based value expansion.
+Palenicek et al. (<a href="#citeproc_bib_item_4">2022</a>; <a href="#citeproc_bib_item_5">Palenicek, Lutter, and Peters 2022</a>) tried using the oracle dynamics (i.e. the simulator) for the model-based value expansion.
 They found that even when using the oracle dynamics, model-based value expansion could not improve sample efficiency.
 They suggest model-free value expansion (e.g. Retrace) is a strong baseline without the computational overhead of model-based methods.
 I can't help but think they could increase the UTD when using MVE to see improvement in sample efficiency.
 
-# References
+## References
 
 <style>.csl-entry{text-indent: -1.5em; margin-left: 1.5em;}</style><div class="csl-bib-body">
   <div class="csl-entry"><a id="citeproc_bib_item_1"></a>Amos, Brandon, Samuel Stanton, Denis Yarats, and Andrew Gordon Wilson. 2021. “On the Model-Based Stochastic Value Gradient for Continuous Reinforcement Learning.” In <i>Proceedings of the 3rd Conference on Learning for Dynamics and Control</i>, 6–20. PMLR.</div>
