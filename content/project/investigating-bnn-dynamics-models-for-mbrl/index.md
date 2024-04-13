@@ -27,7 +27,7 @@ image:
 #   icon_pack: fab
 #   icon: twitter
 
-url_code: ""
+url_code: "https://github.com/aidanscannell/unc-mbrl"
 url_pdf: "project/investigating-bnn-dynamics-models-for-mbrl/poster-finnish-ai-day-2022.pdf"
 url_slides: ""
 url_video: ""
