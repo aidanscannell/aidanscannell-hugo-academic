@@ -88,8 +88,14 @@ highlight_name: true
 Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine
 learning, sequential decision making and robotics.
 My research aims at enabling autonomous agents to learn behaviours, such that they can learn to solve any task.
-I am particularly interested in robotics applications and the challenges associated with learning a policy which can generalise across tasks, objects and embodiments.
-Recently, I have become interested in controlling agents with natural language instructions whilst leveraging information from large offline data sets.
+I am particularly interested in controlling agents with natural language instructions
+and the challenges associated with developing a robotic foundation model which can 
+generalise across tasks, objects and embodiments.
+<!-- leverage diverse offline data sets and -->
+
+<!-- I am particularly interested in robotics applications and the challenges associated with learning a policy which can generalise across tasks, objects and embodiments. -->
+<!-- Recently, I have become interested in controlling agents with natural language instructions whilst leveraging information from large offline data sets. -->
+
 <!-- the challenges associated with leveraging diverse offline data sets,  -->
 <!-- sensor modalities, large-scale offline data sets,  -->
 <!-- its three axes of generalisation: -->
