@@ -1,0 +1,38 @@
+#+title: Vision Language Models as Reward Models
+# #+date: 2023-11-30T14:14:03+02:00
+# # #+DRAFT: true
+#+EXPORT_FILE_NAME: ../../notes/reading/vision-language-models-as-reward-models.md
+#+BIBLIOGRAPHY: /Users/scannea1/Library/Mobile Documents/com~apple~CloudDocs/org/ref/zotero-library.bib
+#+CITE_EXPORT: csl  ~/Zotero/Styles/chicago-author-date.csl
+# # ----------------------- OX Hugo export properties
+#+HUGO_BASE_DIR: ~/web-projects/aidanscannell-hugo-academic/
+#+HUGO_SECTION: notes/reading/
+#+HUGO_FRONT_MATTER_FORMAT: yaml
+# #+HUGO_LEVEL_OFFSET: 0
+# #+HUGO_DRAFT: false
+#+HUGO_CUSTOM_FRONT_MATTER: :summary Notes on using VLMs as reward models for RL :type book
+# ---------------------FRONT-MATTER END -----------------------
+
+Vision language models (VLMs) that have been trained on internet-scale text-image data sets have been used to formulate reward functions from language [cite:@kwonRewardDesignLanguage2022;@rocamondeVisionLanguageModelsAre2023;@mahmoudiehZeroShotRewardSpecification2022].
+For example,
+[cite/t:@mahmoudiehZeroShotRewardSpecification2022];[cite/t:@rocamondeVisionLanguageModelsAre2023] use CLIP embeddings [cite:@radfordLearningTransferableVisual2021] to calculate the similarity between an image observation embedding and the goal text embedding.
+Given a language goal $l$, for example, $l=\text{Put the fork on the kitchen table}$" and an image observation $o$, we can formulate a reward function as,
+\begin{align}
+R_{\text{VLM}}(o,l) = \frac{\text{CLIP}_{\text{v}}(o) \cdot \text{CLIP}_{l}(l)}{\| \text{CLIP}_{\text{v}}(o) \| \cdot \| \text{CLIP}_{\text{l}}(l) \|},
+\end{align}
+where $\text{CLIP}_{\text{l}}(\cdot)$ is the language encoder and $\text{CLIP}_{\text{v}}(\cdot)$ is the vision encoder.
+Intuitively, a higher similarity corresponds to higher reward, i.e. the observation is closer to the text goal.
+
+It is worth noting that there are other ways to get reward functions from VLMS.
+For example, [cite/t:@kwonRewardDesignLanguage2022] take an alternative approach and use LLMs to get reward signals.
+
+
+# BLIP [cite:@liBLIPBootstrappingLanguageImage2022]
+# BLIP-2 [cite:@liBLIP2BootstrappingLanguageImage2023]
+
+
+#+PRINT_BIBLIOGRAPHY:
+
+# Local Variables:
+# org-hugo-auto-export-mode-hook: t
+# End:
