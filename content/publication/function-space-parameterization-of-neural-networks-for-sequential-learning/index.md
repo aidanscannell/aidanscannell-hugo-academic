@@ -51,7 +51,7 @@ url_code: https://github.com/AaltoML/sfr
 url_dataset:
 url_poster: 
 url_project:
-url_slides:
+url_slides: /publication/function-space-parameterization-of-neural-networks-for-sequential-learning/slides.pdf
 url_source: 
 url_video:
 
