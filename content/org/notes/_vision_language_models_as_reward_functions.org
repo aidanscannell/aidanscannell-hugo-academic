@@ -16,7 +16,7 @@
 Vision language models (VLMs) that have been trained on internet-scale text-image data sets have been used to formulate reward functions from language [cite:@kwonRewardDesignLanguage2022;@rocamondeVisionLanguageModelsAre2023;@mahmoudiehZeroShotRewardSpecification2022].
 For example,
 [cite/t:@mahmoudiehZeroShotRewardSpecification2022];[cite/t:@rocamondeVisionLanguageModelsAre2023] use CLIP embeddings [cite:@radfordLearningTransferableVisual2021] to calculate the similarity between an image observation embedding and the goal text embedding.
-Given a language goal $l$, for example, $l=\text{Put the fork on the kitchen table}$" and an image observation $o$, we can formulate a reward function as,
+Given a language goal $l$, for example, $l=\text{"Put the fork on the kitchen table"}$ and an image observation $o$, we can formulate a reward function as,
 \begin{align}
 R_{\text{VLM}}(o,l) = \frac{\text{CLIP}_{\text{v}}(o) \cdot \text{CLIP}_{l}(l)}{\| \text{CLIP}_{\text{v}}(o) \| \cdot \| \text{CLIP}_{\text{l}}(l) \|},
 \end{align}
