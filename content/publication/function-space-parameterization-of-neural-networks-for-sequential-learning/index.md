@@ -49,7 +49,7 @@ links:
 url_pdf: https://openreview.net/pdf?id=2dhxxIKhqz
 url_code: https://github.com/AaltoML/sfr
 url_dataset:
-url_poster: 
+url_poster: /publication/function-space-parameterization-of-neural-networks-for-sequential-learning/poster.pdf
 url_project:
 url_slides: /publication/function-space-parameterization-of-neural-networks-for-sequential-learning/slides.pdf
 url_source: 
