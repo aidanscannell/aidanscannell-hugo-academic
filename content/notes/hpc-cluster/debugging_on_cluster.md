@@ -51,3 +51,13 @@ This is especially useful when combined with [tmux](https://github.com/tmux/tmux
 ```sh
 tmux
 ```
+
+## Helper commands
+Check how many jobs are running with
+```sh
+watch 'squeue -u scannell -h -t running -r | wc -l'
+```
+Check how many jobs are running or queued with
+```sh
+watch 'squeue -u scannell -h -t running,pending -r | wc -l'
+```
