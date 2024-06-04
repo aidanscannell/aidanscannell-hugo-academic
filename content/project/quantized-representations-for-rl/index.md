@@ -4,8 +4,8 @@
 title: "Implicitly Quantized Representations for Reinforcement Learning"
 summary: ""
 
-authors: [Aidan Scannell, Kalle Kujanpää, Yi Zhao, Arno Solin, Joni Pajarinen]
-tags: ["reinforcement-learning", "machine-learning", "representation-learning", "robotics", "python", "pytorch", "research"]
+authors: [Aidan Scannell, Kalle Kujanpää, Yi Zhao, Mohammadreza Nakhaei, Arno Solin, Joni Pajarinen]
+tags: ["reinforcement-learning", "representation-learning", "self-supervised-learning", "robotics", "machine-learning", "python", "pytorch", "research"]
 categories: []
 date: 2024-03-24
 
