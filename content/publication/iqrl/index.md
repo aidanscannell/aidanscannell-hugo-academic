@@ -47,7 +47,7 @@ links:
 #   icon: twitter
 
 
-url_pdf: 
+url_pdf: https://arxiv.org/abs/2406.02696
 #url_code: https://github.com/aidanscannell/iqrl
 url_dataset:
 url_poster: 
