@@ -30,7 +30,7 @@ image:
 
 url_code: https://github.com/aidanscannell/iqrl
 url_source: 
-url_pdf: ""
+url_pdf: "https://arxiv.org/abs/2406.02696"
 url_slides: ""
 url_video: ""
 
