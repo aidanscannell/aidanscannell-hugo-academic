@@ -47,7 +47,7 @@ featured: true
 #   icon: twitter
 
 
-url_pdf: 
+url_pdf: https://arxiv.org/abs/2406.08238
 url_code: https://github.com/MohammadrezaNakhaei/ReLCE
 url_dataset:
 url_poster: 
