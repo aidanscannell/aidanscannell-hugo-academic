@@ -85,12 +85,19 @@ email: "scannell.aidan@gmail.com"
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine
-learning, sequential decision making and robotics.
-My research aims at enabling autonomous agents to learn behaviours, such that they can learn to solve any task.
-I am particularly interested in controlling agents with natural language instructions
-and the challenges associated with developing a robotic foundation model which can 
-generalise across tasks, objects and embodiments.
+<!-- Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine -->
+<!-- learning, sequential decision making and robotics. -->
+Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interests at the intersection of machine learning, sequential decision-making, and robotics. My research focuses on developing autonomous agents capable of learning behaviors to solve a wide range of tasks. I am particularly interested in using natural language instructions to guide these agents and advancing robotics foundation models, especially foundation world models, to enable agents to solve new challenges quickly and effectively.
+
+<!-- My research focuses on developing autonomous agents capable of learning behaviors to solve a wide range of tasks. I am particularly interested in utilizing natural language instructions to guide these agents and advancing robotics foundation models, especially foundation world models, with the aim of enabling agents to solve new challenges fast and effectively. -->
+
+
+<!-- My research aims at enabling autonomous agents to learn behaviours, such that they can learn to solve any task. -->
+<!-- I am particularly interested in controlling agents with natural language instructions -->
+<!-- and developing robotics foundation models (especially foundation world models), such that they can solve a diverse set of tasks. -->
+<!-- and the challenges associated with developing robotics foundation world models. -->
+<!-- and the challenges associated with developing a robotic foundation model which can  -->
+<!-- generalise across tasks, objects and embodiments. -->
 <!-- leverage diverse offline data sets and -->
 
 <!-- I am particularly interested in robotics applications and the challenges associated with learning a policy which can generalise across tasks, objects and embodiments. -->
