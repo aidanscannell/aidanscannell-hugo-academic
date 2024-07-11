@@ -17,7 +17,7 @@ abstract: |
 
   The core of the lecture will focus on decision-time planning strategies within continuous action spaces. I will provide insights into the sources of uncertainty inherent in model-based RL and discuss methods for making decisions under this uncertainty.
 
-  This lecture aims to equip you with a good understanding of decision-time planning in model-based RL and provide some insights into how to navigate the challenges posed by uncertainty.
+  This lecture aims to provide a good understanding of decision-time planning in model-based RL and offer insights into the rationale and strategies for making decisions under uncertainty.
  
 
 # Talk start and end times.
