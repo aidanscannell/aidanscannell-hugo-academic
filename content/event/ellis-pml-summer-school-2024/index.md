@@ -13,7 +13,12 @@ address:
   country:
 summary: I'll be giving a lecture on model-based RL at the Cambridge Ellis Unit Summer School on Probabilistic Machine Learning 2024.
 abstract: |
-  In this lecture, I will introduce students to model-based reinforcement learning
+  In this lecture, I will introduce model-based reinforcement learning (RL). I will begin by laying the foundations of model-free RL and then define what constitutes a "model" in the context of model-based RL. We will then examine the different ways we can use these "models", specifically comparing background planning and decision-time planning.
+
+  The core of the lecture will focus on decision-time planning strategies within continuous action spaces. I will provide insights into the sources of uncertainty inherent in model-based RL and discuss methods for making decisions under this uncertainty.
+
+  This lecture aims to equip you with a good understanding of decision-time planning in model-based RL and provide some insights into how to navigate the challenges posed by uncertainty.
+ 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
