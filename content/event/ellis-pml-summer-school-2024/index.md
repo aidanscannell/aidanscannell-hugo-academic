@@ -52,8 +52,7 @@ links:
    icon: key
 
 # Optional filename of your slides within your event's folder or a URL.
-#url_slides: mbrl-ellis-pml-2024.key
-url_slides: ellis-pml-summer-school-model-based-rl/index.html
+url_slides: /talk/model-based-reinforcement-learning/slides
 url_code:
 url_pdf:
 url_video: 
