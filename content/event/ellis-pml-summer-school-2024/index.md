@@ -45,16 +45,16 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
- - name: Keynote
-   url: mbrl-ellis-pml-2024.key
-   icon_pack: fa
-   icon: key
+# links:
+#  - name: Keynote
+#    url: mbrl-ellis-pml-2024.key
+#    icon_pack: fa
+#    icon: key
 
 # Optional filename of your slides within your event's folder or a URL.
 url_slides: /talk/model-based-reinforcement-learning/slides
 url_code:
-url_pdf:
+url_pdf: /talk/model-based-reinforcement-learning/slides.pdf
 url_video: 
 url_poster:  
 
