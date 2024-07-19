@@ -13,3 +13,6 @@ go.sum
 .gitkeep
 
 *.auctex-auto*
+
+
+static/iqrl/static/interpolation/*
