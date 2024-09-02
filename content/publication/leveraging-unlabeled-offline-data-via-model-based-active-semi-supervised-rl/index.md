@@ -20,7 +20,7 @@ publishDate: 2024-08-19T16:01:09+03:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Preprint under review"
+publication: "Preprint"
 #publication_short: ""
 
 
