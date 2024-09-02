@@ -23,7 +23,7 @@ publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
 #publication: "Proceedings of the 41st International Conference on Machine Learning (ICML)"
-publication: "arXiv"
+publication: "arXiv preprint arXiv:2406.02696"
 #publication_short: "ICML 2024"
 
 
@@ -39,8 +39,8 @@ featured: true
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
 links:
-# - name: Website
-#   url: https://aaltoml.github.io/sfr
+ - name: Website
+   url: /iqrl
 # - name: Follow
 #   url: https://twitter.com/scannell_aidan/status/1617792928646311937
 #   icon_pack: fab
