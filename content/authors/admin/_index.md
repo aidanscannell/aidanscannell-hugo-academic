@@ -10,12 +10,12 @@ role: Postdoctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Aalto University
-    url: "https://www.aalto.fi/en"
-  - name: Aalto Robot Learning Lab
-    url: "https://rl.aalto.fi/"
-  - name: Aalto Machine Learning Group
-    url: "https://users.aalto.fi/~asolin/group/"
+  - name: University of Edinburgh
+    url: "https://informatics.ed.ac.uk/"
+  - name: Bayesian and Neural Systems Group
+    url: "https://www.bayeswatch.com/"
+  - name: Autonomous Agents Research Group
+    url: "https://agents.inf.ed.ac.uk/stefano-albrecht/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include model-based reinforcement learning, probabilistic machine learning (gaussian processes, Bayesian neural networks, approximate Bayesian inference, etc), learning-based control and optimal control.
@@ -122,7 +122,8 @@ Hello, my name is Aidan Scannell and I am a postdoctoral researcher with interes
 
 
 ### Bio:
-I am a [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher 
+I am a Research Associate at the University of Edinburgh in [The Bayesian and Neural Systems Group](https://www.bayeswatch.com/) working with Amos Storkey, Stefano Albrecht and Peter Bell.
+Previously I was a [Finnish Center for Artificial Intelligence](https://fcai.fi/) postdoctoral researcher 
 at [Aalto University](https://www.aalto.fi/en) 
 in Joni Pajarinen's [Robot Learning Lab](https://rl.aalto.fi/)
 and Arno Solin's [Machine Learning Research Group](https://users.aalto.fi/~asolin/group/).

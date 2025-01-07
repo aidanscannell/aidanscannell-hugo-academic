@@ -41,15 +41,15 @@ content:
   #     name: Zoom Me
   #     link: 'https://zoom.com'
   address:
-    street: Room 3578, Maarintie 8, Espoo
-    city: Helsinki
+    street: Room 2.34, Informatics Forum
+    city: Edinburgh
     region:
-    postcode: '02150'
-    country: Finland
-    country_code: fi
+    postcode: 'EH8 9AB'
+    country: Scotland
+    country_code: UK
   coordinates:
-    latitude: '60.18687291902104'
-    longitude: '24.820030343777994'
+    latitude: '55.94486274094089'
+    longitude: '-3.1873566404787894'
   # directions:
   # office_hours:
     # - 'Monday 10:00 to 13:00'
