@@ -37,9 +37,9 @@ featured: true
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Website
-#   url: /iqrl
+links:
+- name: Website
+  url: /dcmpc
 # - name: Follow
 #   url: https://twitter.com/scannell_aidan/status/1617792928646311937
 #   icon_pack: fab
@@ -47,7 +47,7 @@ featured: true
 
 
 url_pdf: https://openreview.net/pdf?id=lfRYzd8ady
-url_code: 
+url_code: https://github.com/aidanscannell/dcmpc
 url_dataset:
 url_poster: 
 url_project:
