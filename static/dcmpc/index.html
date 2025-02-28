@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DCWM: Discrete Codebook World Model</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script> -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://www.aidanscannell.com">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <!-- <div class="navbar-item has-dropdown is-hoverable"> -->
+      <!--   <a class="navbar-link"> -->
+      <!--     More Research -->
+      <!--   </a> -->
+      <!--   <div class="navbar-dropdown"> -->
+      <!--     <a class="navbar-item" href="https://hypernerf.github.io"> -->
+      <!--       HyperNeRF -->
+      <!--     </a> -->
+      <!--     <a class="navbar-item" href="https://nerfies.github.io"> -->
+      <!--       Nerfies -->
+      <!--     </a> -->
+      <!--     <a class="navbar-item" href="https://latentfusion.github.io"> -->
+      <!--       LatentFusion -->
+      <!--     </a> -->
+      <!--     <a class="navbar-item" href="https://photoshape.github.io"> -->
+      <!--       PhotoShape -->
+      <!--     </a> -->
+      <!--   </div> -->
+      <!-- </div> -->
+    </div>
+
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">DCWM - <b>D</b>iscrete <b>C</b>odebook <b>W</b>orld <b>M</b>odel</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.aidanscannell.com">Aidan Scannell</a><sup>1,2,3</sup>,</span>
+            <span class="author-block">
+              <a href="https://mohammadrezanakhaei.github.io/">Mohammadreza Nakhaei</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a >Kalle Kujanpää</a><sup>1,2</sup>,</span>
+            <span class="author-block">
+              <a href="https://zhaoyi11.github.io/">Yi Zhao</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://kevin-luck.com/">Kevin Sebastian Luck</a><sup>3</sup>,</span>
+            <span class="author-block">
+              <a href="https://users.aalto.fi/~asolin/">Arno Solin</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://rl.aalto.fi">Joni Pajarinen</a><sup>1</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Aalto University,</span>
+            <span class="author-block"><sup>2</sup>Finnish Center for Artificial Intelligence (FCAI),</span>
+            <span class="author-block"><sup>3</sup>University of Edinburgh,</span>
+            <span class="author-block"><sup>4</sup>Vrije Universiteit Amsterdam</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://openreview.net/forum?id=lfRYzd8ady"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>OpenReview</span>
+                </a>
+              </span>
+              <!-- <span class="link-block"> -->
+              <!--   <a href="https://arxiv.org/abs/2406.02696" -->
+              <!--      class="external-link button is-normal is-rounded is-dark"> -->
+              <!--     <span class="icon"> -->
+              <!--         <i class="ai ai-arxiv"></i> -->
+              <!--     </span> -->
+              <!--     <span>arXiv</span> -->
+              <!--   </a> -->
+              <!-- </span> -->
+              <!-- Video Link. -->
+              <!-- <span class="link-block"> -->
+              <!--   <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA" -->
+              <!--      class="external-link button is-normal is-rounded is-dark"> -->
+              <!--     <span class="icon"> -->
+              <!--         <i class="fab fa-youtube"></i> -->
+              <!--     </span> -->
+              <!--     <span>Video</span> -->
+              <!--   </a> -->
+              <!-- </span> -->
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/aidanscannell/dcmpc"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <!-- <span class="link-block"> -->
+              <!--   <a href="https://github.com/google/nerfies/releases/tag/0.1" -->
+              <!--      class="external-link button is-normal is-rounded is-dark"> -->
+              <!--     <span class="icon"> -->
+              <!--         <i class="far fa-images"></i> -->
+              <!--     </span> -->
+              <!--     <span>Data</span> -->
+              <!--     </a> -->
+              <!-- </span> -->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="hero teaser"> -->
+<!--   <div class="container is-max-desktop"> -->
+<!--         <\!-- Interpolating. -\-> -->
+<!--         <\!-- <h3 class="title is-4">Interpolating states</h3> -\-> -->
+<!--         <div class="columns is-vcentered interpolation-panel"> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <img src="./static/images/avg_dmc_tasks_bar.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolate start reference image."/> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <img src="./static/images/avg_mw_tasks_bar.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolation end reference image."/> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <img src="./static/images/avg_mw_tasks_bar.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolation end reference image."/> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <br/> -->
+<!--         <\!--/ Interpolating. -\-> -->
+<!--   </div> -->
+<!-- </section> -->
+
+
+<!-- <section class="hero teaser"> -->
+<!--   <div class="container is-max-desktop"> -->
+<!--     <div class="hero-body"> -->
+<!--         <img src="./static/images/avg_dmc_tasks_bar.png"> -->
+<!--         <img src="./static/images/avg_mw_tasks_bar.png"> -->
+<!--       <h2 class="subtitle has-text-centered"> -->
+<!--         <span class="dnerf"> -->
+<!--       </h2> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>In reinforcement learning (RL), world models serve as internal simulators, enabling agents to predict environment dynamics and future outcomes in order to make informed decisions. While previous approaches leveraging discrete latent spaces, such as DreamerV3, have demonstrated strong performance in discrete action settings and visual control tasks, their comparative performance in state-based continuous control remains underexplored. In contrast, methods with continuous latent spaces, such as TD-MPC2, have shown notable success in state-based continuous control benchmarks. In this paper, we demonstrate that modelling discrete latent states has benefits over continuous latent states and that discrete codebook encodings are more effective representations for continuous control, compared to alternative encodings, such as one-hot and label-based encodings. Based on these insights, we introduce DCWM: <b>D</b>iscrete <b>C</b>odebook <b>W</b>orld <b>M</b>odel, a self-supervised world model with a discrete and stochastic latent space, where latent states are codes from a codebook. We combine DCWM with decision-time planning to get our model-based RL algorithm, named DC-MPC: <b>D</b>iscrete <b>C</b>odebook <b>M</b>odel <b>P</b>redictive <b>C</b>ontrol, which performs competitively against recent state-of-the-art algorithms, including TD-MPC2 and DreamerV3, on continuous control benchmarks. See our project website <a href="https://www.aidanscannell.com/dcmpc">https://www.aidanscannell.com/dcmpc</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <img src="./static/images/dcwm-diagram.png">
+      <h2 class="subtitle has-text-centered">
+        <!-- <span class="dnerf"><b>DCWM</b> </span> is a world model with a discrete latent space where each latent state is a discrete code (<img src="./static/images/codebook.png" style="display:inline-block; height:0.9em; width:auto; transform:translate(0, 0.1em)">) from a codebook. Observations are first mapped through the encoder and then quantized <img src="./static/images/fsq.png" style="display:inline-block; height:1em; width:auto; transform:translate(0, 0.1em)"> into one of the discrete codes. We model stochastic latent transition dynamics as a classifier such that it captures a potentially multimodal distribution over the next state given the previous state and action. During training, multi-step predictions are made using Gumbel-softmax sampling such that gradients backpropagate to the encoder. Given this discrete formulation, we train the latent space using a classification objective, i.e. cross-entropy loss. Making the latent representation discrete with a codebook contributes to the very high sample efficiency of DCWM. -->
+  <b>DCWM</b> DCWM is a world model with a discrete latent space where each latent state is a discrete code (<img src="./static/images/codebook.png" style="display:inline-block; height:0.9em; width:auto; transform:translate(0, 0.1em)">) from a codebook. Observations are first mapped through the encoder and then quantized <img src="./static/images/fsq.png" style="display:inline-block; height:1em; width:auto; transform:translate(0, 0.1em)"> into one of the discrete codes. We model probabilistic latent transition dynamics as a classifier such that it captures a potentially multimodal distribution over the next state given the previous state and action. During training, multi-step predictions are made using straight-through (ST) Gumbel-softmax sampling such that gradients backpropagate through time to the encoder. Given this discrete formulation, we train the latent space using a classification objective, i.e. cross-entropy loss. Making the latent representation stochastic and discrete with a codebook contributes to the very high sample efficiency of DC-MPC.
+
+        <!-- is a stand-alone representation learning technique that is compatible with any model-free RL algorithm (we use TD3). Importantly, iQRL quantizes the latent representation with Finite Scalar Quantization (FSQ, <img src="./static/images/fsq.png" style="display:inline-block; height:1em; width:auto; transform:translate(0, 0.1em)">), using only a self-supervised latent-state consistency loss, i.e. no decoder. Making the latent representation discrete with an implicit codebook (<img src="./static/images/codebook.png" style="display:inline-block; height:0.9em; width:auto; transform:translate(0, 0.1em)">) contributes to the very high sample efficiency of iQRL and empirically prevents dimensional collapse. -->
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="section"> -->
+<!--   <div class="container is-max-desktop"> -->
+<!--     <\!-- Animation. -\-> -->
+<!--     <div class="columns is-centered"> -->
+<!--       <div class="column is-full-width"> -->
+<!--         <h2 class="title is-3">Animation</h2> -->
+
+<!--         <\!-- Interpolating. -\-> -->
+<!--         <h3 class="title is-4">Interpolating states</h3> -->
+<!--         <div class="content has-text-justified"> -->
+<!--           <p> -->
+<!--             We can also animate the scene by interpolating the deformation latent codes of two input -->
+<!--             frames. Use the slider here to linearly interpolate between the left frame and the right -->
+<!--             frame. -->
+<!--           </p> -->
+<!--         </div> -->
+<!--         <div class="columns is-vcentered interpolation-panel"> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <video id="walker" autoplay controls muted loop playsinline height="100%"> -->
+<!--               <source src="./static/videos/walker.mp4" -->
+<!--                       type="video/mp4"> -->
+<!--             </video> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <video id="walker" autoplay controls muted loop playsinline height="100%"> -->
+<!--               <source src="./static/videos/walker.mp4" -->
+<!--                       type="video/mp4"> -->
+<!--             </video> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <video id="walker" autoplay controls muted loop playsinline height="100%"> -->
+<!--               <source src="./static/videos/walker.mp4" -->
+<!--                       type="video/mp4"> -->
+<!--             </video> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <video id="walker" autoplay controls muted loop playsinline height="100%"> -->
+<!--               <source src="./static/videos/walker.mp4" -->
+<!--                       type="video/mp4"> -->
+<!--             </video> -->
+<!--           </div> -->
+<!--           </div> -->
+<!--             <\!-- <p>DeepMind Control Suite</p> -\-> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <br/> -->
+<!--         <\!--/ Interpolating. -\-> -->
+
+
+<!--         <\!-- Interpolating. -\-> -->
+<!--         <h3 class="title is-4">Interpolating states</h3> -->
+<!--         <div class="content has-text-justified"> -->
+<!--           <p> -->
+<!--             We can also animate the scene by interpolating the deformation latent codes of two input -->
+<!--             frames. Use the slider here to linearly interpolate between the left frame and the right -->
+<!--             frame. -->
+<!--           </p> -->
+<!--         </div> -->
+<!--         <div class="columns is-vcentered interpolation-panel"> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <img src="./static/images/avg_dmc_tasks_bar.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolate start reference image."/> -->
+<!--             <p>DeepMind Control Suite</p> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <img src="./static/images/avg_mw_tasks_bar.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolation end reference image."/> -->
+<!--             <p class="is-bold">Meta-World</p> -->
+<!--           </div> -->
+<!--           <div class="column is-3 has-text-centered"> -->
+<!--             <img src="./static/images/avg_mw_tasks_bar.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolation end reference image."/> -->
+<!--             <p class="is-bold">MyoSuite</p> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <br/> -->
+<!--         <\!--/ Interpolating. -\-> -->
+
+<!--         <\!-- Interpolating. -\-> -->
+<!--         <h3 class="title is-4">Our Latent Space Improves TD-MPC2</h3> -->
+<!--         <div class="content has-text-justified"> -->
+<!--           <p> -->
+<!--             We modified TD-MPC2 to use our world model and this improved its performance across DMControl and Meta-World tasks. The changes are as follows: i) use a discrete (codebook) latent space, ii) model stochastic transition dynamics, and -->
+<!--             iii) use cross-entropy for the latent state consistency loss. -->
+<!--           </p> -->
+<!--         </div> -->
+<!--         <div class="columns is-vcentered interpolation-panel"> -->
+<!--           <div class="column is-6 has-text-centered"> -->
+<!--             <img src="./static/images/tdmpc2-with-dcwm-iqm-optimality-gap.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolate start reference image."/> -->
+<!--             <\!-- <p>DeepMind Control Suite</p> -\-> -->
+<!--           </div> -->
+<!--           <div class="column is-6 has-text-centered"> -->
+<!--             <img src="./static/images/tdmpc2-with-dcwm-sample-eff.png" -->
+<!--                  class="interpolation-image" -->
+<!--                  alt="Interpolation end reference image."/> -->
+<!--             <\!-- <p class="is-bold">Meta-World</p> -\-> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <br/> -->
+<!--         <\!--/ Interpolating. -\-> -->
+
+<!--         <\!-- Interpolating. -\-> -->
+<!--         <h3 class="title is-4">Latent Space Comparison</h3> -->
+<!--         <div class="content has-text-justified"> -->
+<!--           <p> -->
+<!--             We compared the impact of i) encoding states into discrete vs continuous latent spaces, ii) modelling stochastic vs deterministic latent transition dynamics, and iii) using mean squared error (MSE) vs cross-entropy (CE) for the latent state consistency loss. -->
+<!--             <\!-- Our results suggest that discrete the latent spaces offer benefits over continuous latent spaces and that modelling stochastic latent transition dynamics further improves performance. -\-> -->
+<!--             Our results are summarized as follows: -->
+<!--             <ul> -->
+<!--               <li>Discrete latent spaces outperform continuous latent spaces.</li> -->
+<!--               <li>Modelling stochastic transition dynamics and making multi-step dynamics predictions using Gumbel-softmax sampling improves performance further. -->
+<!--             Interestingly, this result does not hold for continuous latent spaces.</li> -->
+<!--               <li>Training the world model using cross-entropy for the latent state consistency loss offers little improvement over mean squared error.</li> -->
+<!--             </ul> -->
+<!--             In summary, the main benefits arise from modelling a discrete and stochastic latent space. -->
+<!--           </p> -->
+<!--         </div> -->
+<!--         <div class="columns is-vcentered"> -->
+<!--           <div class="column is-6 has-text-centered"> -->
+<!--             <img src="./static/images/latent-space-comparison-iqm-optimality-gap.png" -->
+<!--                  alt="Interpolate start reference image."/> -->
+<!--             <\!-- <p>DeepMind Control Suite</p> -\-> -->
+<!--           </div> -->
+<!--           <div class="column is-5 has-text-centered"> -->
+<!--             <img src="./static/images/latent-space-comparison-sample-eff.png" -->
+<!--                  alt="Interpolation end reference image."/> -->
+<!--             <\!-- <p class="is-bold">Meta-World</p> -\-> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--         <\!-- <br/> -\-> -->
+<!--         <\!--/ Interpolating. -\-> -->
+
+<!--       </div> -->
+<!--     </div> -->
+<!--     <\!--/ Animation. -\-> -->
+
+<!--   </div> -->
+<!-- </section> -->
+
+
+
+<!-- <section class="hero is-light is-small"> -->
+<!--   <div class="hero-body"> -->
+<!--     <div class="container"> -->
+<!--       <div id="results-carousel" class="carousel results-carousel"> -->
+<!--         <div class="item item-steve"> -->
+<!--           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/steve.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-chair-tp"> -->
+<!--           <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/chair-tp.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-shiba"> -->
+<!--           <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/shiba.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-fullbody"> -->
+<!--           <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/fullbody.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-blueshirt"> -->
+<!--           <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/blueshirt.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-mask"> -->
+<!--           <video poster="" id="mask" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/mask.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-coffee"> -->
+<!--           <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/coffee.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--         <div class="item item-toby"> -->
+<!--           <video poster="" id="toby" autoplay controls muted loop playsinline height="100%"> -->
+<!--             <source src="./static/videos/toby2.mp4" -->
+<!--                     type="video/mp4"> -->
+<!--           </video> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </div> -->
+<!--   </div> -->
+<!-- </section> -->
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    Please consider citing our arXiv paper:
+    <pre><code>@inproceedings{scannell2025discrete,
+  title     = {Discrete Codebook World Models for Continuous Control},
+  author    = {Aidan Scannell and Mohammadreza Nakhaeinezhadfard and Kalle Kujanp{\"a}{\"a} and Yi Zhao and Kevin Sebastian Luck and Arno Solin and Joni Pajarinen},
+  booktitle = {The Thirteenth International Conference on Learning Representations},
+  year      = {2025},
+  url       = {https://openreview.net/forum?id=lfRYzd8ady}
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/pdf/2406.02696">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <!-- <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled> -->
+      <!--   <i class="fab fa-github"></i> -->
+      <!-- </a> -->
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content" style="text-align: center">
+          <p>
+            Website is based on <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
