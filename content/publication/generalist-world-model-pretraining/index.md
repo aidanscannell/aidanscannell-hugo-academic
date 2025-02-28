@@ -3,15 +3,15 @@
 
 draft: false
 
-title: Leveraging Unlabeled Offline Data via Model-based Active Semi-supervised Reinforcement Learning
-authors: [Yi Zhao, Aidan Scannell, Tianyu Cui, Le Chen, Arno Solin, Juho Kannala, Joni Pajarinen]
+title: Generalist World Model Pre-Training for Efficient Reinforcement Learning
+authors: [Yi Zhao, Aidan Scannell, Cui Yuxin, Tianyu Cui, Le Chen, Arno Solin, Juho Kannala, Joni Pajarinen]
 # author_notes:
 # date: 2023-04-27T21:01:09+03:00
-date: 2024-10-19
+date: 2025-02-19
 doi: 
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-08-19T16:01:09+03:00
+publishDate: 2025-02-26T16:01:09+03:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,7 +20,7 @@ publishDate: 2024-08-19T16:01:09+03:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Preprint"
+publication: "arXiv preprint arXiv:2502.19544"
 #publication_short: ""
 
 
@@ -44,7 +44,7 @@ featured: true
 #   icon: twitter
 
 
-url_pdf: 
+url_pdf: https://arxiv.org/abs/2502.19544
 url_code: 
 url_dataset:
 url_poster: 
