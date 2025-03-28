@@ -51,9 +51,9 @@ url_code: https://github.com/aidanscannell/dcmpc
 url_dataset:
 url_poster: 
 url_project:
-url_slides:
+url_slides: slides.pdf
 url_source: 
-url_video:
+url_video: https://recorder-v3.slideslive.com/?share=98948&s=31e7f935-779c-446d-962d-be9ff1ddc366
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
