@@ -20,7 +20,7 @@ publishDate: 2025-02-26T16:01:09+03:00
 publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv preprint arXiv:2502.19544"
+publication: "ICLR 2025 Workshop on World Models: Understanding, Modelling and Scaling"
 #publication_short: ""
 
 
@@ -44,7 +44,7 @@ featured: true
 #   icon: twitter
 
 
-url_pdf: https://arxiv.org/abs/2502.19544
+url_pdf: https://openreview.net/pdf?id=WtJnrr4BGO
 url_code: 
 url_dataset:
 url_poster: 
